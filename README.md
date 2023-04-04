@@ -47,16 +47,16 @@ Steps
     
 Modeling
 - Scatter plot, 'Composite Score v. Participation Across All States on the ACT, in 2019'
-<img src = "../project-1/graphs/comp_score_part_scatter_act.png" style="float: center; margin: 10px; height: 300px">
+<img src = "../graphs/comp_score_part_scatter_act.png" style="float: center; margin: 10px; height: 300px">
 
 - Bar chart, 'Average ACT Composite Score of States with 100% ACT Participation, in 2019'
-<img src = "../project-1/graphs/average_comp_score_states_act.png" style="float: center; margin: 10px; height: 300px">
+<img src = "../graphs/average_comp_score_states_act.png" style="float: center; margin: 10px; height: 300px">
 
 - Scatter plot 'Total Score v. Participation Across All States on the SAT, in 2019' 
-<img src = "../project-1/graphs/total_score_part_scatter_sat.png" style="float: center; margin: 10px; height: 300px">
+<img src = "../graphs/total_score_part_scatter_sat.png" style="float: center; margin: 10px; height: 300px">
 
 - Bar chart, 'Average SAT Total Score of States with 100% SAT Participation, in 2019'
-<img src = "../project-1/graphs/average_total_score_states_sat.png" style="float: center; margin: 10px; height: 300px">
+<img src = "../graphs/average_total_score_states_sat.png" style="float: center; margin: 10px; height: 300px">
 
 ### Findings
 * 'Composite Score v. Participation Across All States on the ACT, 2019' and 'Total Score v. Participation Across All States on the SAT, in 2019' showed on a scatter plot what looked like a trend that the lower the participation rate, the higher the composite score; vice versa, the states that required the ACT and SAT had the lowest scores. However, if you run through the correlation of each column, we found that participation and comp_score (participation and total_score for SAT) had an unlikely correlation at -0.864154. The closer the number is to -1, the more unlikely the correlation. We will instead focus on states that required ACT or SAT participation (Participation = 1.0) to further our exploration of technological resources those states have. 
